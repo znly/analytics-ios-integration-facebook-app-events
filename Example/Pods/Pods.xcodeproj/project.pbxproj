@@ -237,7 +237,6 @@
 		AC620F571E44E2C600618795 /* SEGFacebookAppEventsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D29FC5D45333294239E96D6F6D822F /* SEGFacebookAppEventsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC620F5C1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC620F5A1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC620F5E1E48C95F00618795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC620F5D1E48C95F00618795 /* Foundation.framework */; };
-		AC620F811E48CDFE00618795 /* libSegment-Facebook-App-Events.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E584E8CABB419E971A1BA48C4BA44B02 /* libSegment-Facebook-App-Events.a */; };
 		AD6791D14732A3C17164F61CC72FFB0D /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A602A74D682DD5C6ABA361D0B0BA9 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADD7BEF4E323EC2A4AB754F51181E75D /* SEGFacebookAppEventsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D29FC5D45333294239E96D6F6D822F /* SEGFacebookAppEventsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B048FCBC79006AEBDEAB30A20E5DC42D /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = F788770A65A735249575A02ECC0499F2 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -886,7 +885,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC620F811E48CDFE00618795 /* libSegment-Facebook-App-Events.a in Frameworks */,
 				AC620F5E1E48C95F00618795 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
