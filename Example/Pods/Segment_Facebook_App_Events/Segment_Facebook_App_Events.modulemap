@@ -1,0 +1,6 @@
+framework module Segment_Facebook_App_Events {
+    umbrella header "Segment_Facebook_App_Events-umbrella.h"
+
+    export *
+    module * { export * }
+}

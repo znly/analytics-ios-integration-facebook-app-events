@@ -232,6 +232,12 @@
 		AAE75938ED3DD46BC00352B82D7CA890 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8130FE3549EF8C1E72A401C2C4CD86 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB1D6408D48F6ECF3FCE553BE73961F5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4899A6FF7C3372FACB9A5C897A76937A /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFB7D6D17FDEE24D0F123DBD90CC2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		AC620F521E44D1AA00618795 /* Segment_Facebook_App_Events.h in Headers */ = {isa = PBXBuildFile; fileRef = AC620F501E44D1AA00618795 /* Segment_Facebook_App_Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC620F561E44E2C600618795 /* SEGFacebookAppEventsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = E32800D7165DA5D84B0DED9C3638ADD7 /* SEGFacebookAppEventsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC620F571E44E2C600618795 /* SEGFacebookAppEventsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D29FC5D45333294239E96D6F6D822F /* SEGFacebookAppEventsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC620F581E44E2CD00618795 /* SEGFacebookAppEventsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454076A563766169B1986F44CD549A5 /* SEGFacebookAppEventsIntegration.m */; };
+		AC620F591E44E2CD00618795 /* SEGFacebookAppEventsIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F648373E20EC6AB2779EBE804889DF49 /* SEGFacebookAppEventsIntegrationFactory.m */; };
+		AC620F5C1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC620F5A1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6791D14732A3C17164F61CC72FFB0D /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A602A74D682DD5C6ABA361D0B0BA9 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADD7BEF4E323EC2A4AB754F51181E75D /* SEGFacebookAppEventsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D29FC5D45333294239E96D6F6D822F /* SEGFacebookAppEventsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B048FCBC79006AEBDEAB30A20E5DC42D /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = F788770A65A735249575A02ECC0499F2 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -692,6 +698,11 @@
 		AC0B3AC1FEA7A56D1D4CA1F9C52ED6A4 /* FBSDKGraphRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequest.h; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h; sourceTree = "<group>"; };
 		AC340FE5F5F3B14E143B2539DDD599B0 /* FBSDKServerConfiguration+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKServerConfiguration+Internal.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfiguration+Internal.h"; sourceTree = "<group>"; };
 		AC4DD217E072E8BD86FE6F66B6AC7414 /* FBSDKApplicationDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKApplicationDelegate.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.m; sourceTree = "<group>"; };
+		AC620F4E1E44D1AA00618795 /* Segment_Facebook_App_Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Facebook_App_Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC620F501E44D1AA00618795 /* Segment_Facebook_App_Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Segment_Facebook_App_Events.h; sourceTree = "<group>"; };
+		AC620F511E44D1AA00618795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC620F5A1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Segment_Facebook_App_Events-umbrella.h"; sourceTree = "<group>"; };
+		AC620F5B1E44E32000618795 /* Segment_Facebook_App_Events.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Segment_Facebook_App_Events.modulemap; sourceTree = "<group>"; };
 		AD7722924DDD50E32B34025B21FFF3D8 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		ADC5B1A23C51875AF0AE10A86FEC2151 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		AE3BAD4456751D66BB24EA3E6902CB78 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
@@ -860,6 +871,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABFB7D6D17FDEE24D0F123DBD90CC2E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC620F4A1E44D1AA00618795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1289,6 +1307,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				465D66C9479F03562AE7FB82EF8DDBF0 /* Development Pods */,
+				AC620F4F1E44D1AA00618795 /* Segment_Facebook_App_Events */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				D127071835747B5FFAC9D4ABEB597F33 /* Pods */,
 				8E443274F987C8B2828356D0D00F1184 /* Products */,
@@ -1348,6 +1367,7 @@
 				1A66F8247E22C94B38CEF177761E01D7 /* libPods-Segment-Facebook_Tests.a */,
 				E584E8CABB419E971A1BA48C4BA44B02 /* libSegment-Facebook-App-Events.a */,
 				3E2D698161825DCDA7B74C2811D11FEC /* libSpecta.a */,
+				AC620F4E1E44D1AA00618795 /* Segment_Facebook_App_Events.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1376,6 +1396,17 @@
 			);
 			name = "Pods-Segment-Facebook_Example";
 			path = "Target Support Files/Pods-Segment-Facebook_Example";
+			sourceTree = "<group>";
+		};
+		AC620F4F1E44D1AA00618795 /* Segment_Facebook_App_Events */ = {
+			isa = PBXGroup;
+			children = (
+				AC620F5A1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h */,
+				AC620F5B1E44E32000618795 /* Segment_Facebook_App_Events.modulemap */,
+				AC620F501E44D1AA00618795 /* Segment_Facebook_App_Events.h */,
+				AC620F511E44D1AA00618795 /* Info.plist */,
+			);
+			path = Segment_Facebook_App_Events;
 			sourceTree = "<group>";
 		};
 		B1628DFF4ABEC7888836C714D3AFC2DC /* Support Files */ = {
@@ -1633,6 +1664,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC620F4B1E44D1AA00618795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC620F521E44D1AA00618795 /* Segment_Facebook_App_Events.h in Headers */,
+				AC620F561E44E2C600618795 /* SEGFacebookAppEventsIntegration.h in Headers */,
+				AC620F5C1E44E32000618795 /* Segment_Facebook_App_Events-umbrella.h in Headers */,
+				AC620F571E44E2C600618795 /* SEGFacebookAppEventsIntegrationFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6AD7852D34E8A80DFF3B8376BDE812F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1795,6 +1837,24 @@
 			productReference = 1BE76D3AC2777B7D9EA5F404A8B07D28 /* libAnalytics.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		AC620F4D1E44D1AA00618795 /* Segment_Facebook_App_Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC620F551E44D1AA00618795 /* Build configuration list for PBXNativeTarget "Segment_Facebook_App_Events" */;
+			buildPhases = (
+				AC620F491E44D1AA00618795 /* Sources */,
+				AC620F4A1E44D1AA00618795 /* Frameworks */,
+				AC620F4B1E44D1AA00618795 /* Headers */,
+				AC620F4C1E44D1AA00618795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Segment_Facebook_App_Events;
+			productName = Segment_Facebook_App_Events;
+			productReference = AC620F4E1E44D1AA00618795 /* Segment_Facebook_App_Events.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D954C006EA39C271B80BE6AAFBCD360A /* Pods-Segment-Facebook_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A974DB94D0F981E8FBEDFC948C5882CE /* Build configuration list for PBXNativeTarget "Pods-Segment-Facebook_Example" */;
@@ -1860,6 +1920,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					AC620F4D1E44D1AA00618795 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1881,9 +1947,20 @@
 				410196843FF955438591FD6958C12732 /* Pods-Segment-Facebook_Tests */,
 				E1CBAD89568BC38E5ECF730E65860B6C /* Segment-Facebook-App-Events */,
 				EC83F786E5B9E1E20A6311D55A3C3A82 /* Specta */,
+				AC620F4D1E44D1AA00618795 /* Segment_Facebook_App_Events */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC620F4C1E44D1AA00618795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E29463DA9D659855FE7FCFCE7FDFB0C /* Sources */ = {
@@ -1974,6 +2051,15 @@
 				5343D26B7E003D2401DA62552798CB38 /* BFWebViewAppLinkResolver.m in Sources */,
 				D4FA9B6017F7B186C8B94340AFF8F712 /* Bolts-dummy.m in Sources */,
 				2F6E6384ED20B9F185703159EEC438A9 /* Bolts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC620F491E44D1AA00618795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC620F581E44E2CD00618795 /* SEGFacebookAppEventsIntegration.m in Sources */,
+				AC620F591E44E2CD00618795 /* SEGFacebookAppEventsIntegrationFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2412,6 +2498,85 @@
 			};
 			name = Release;
 		};
+		AC620F531E44D1AA00618795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Segment_Facebook_App_Events/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Segment_Facebook_App_Events/Segment_Facebook_App_Events.modulemap;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.SegmentFacebookAppEvents.Segment-Facebook-App-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC620F541E44D1AA00618795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Segment_Facebook_App_Events/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Segment_Facebook_App_Events/Segment_Facebook_App_Events.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.SegmentFacebookAppEvents.Segment-Facebook-App-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B059C63662F7DBD4098110739EE998DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77386292F8E6178D89F766C760B7927F /* FBSDKCoreKit.xcconfig */;
@@ -2627,6 +2792,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AC620F551E44D1AA00618795 /* Build configuration list for PBXNativeTarget "Segment_Facebook_App_Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC620F531E44D1AA00618795 /* Debug */,
+				AC620F541E44D1AA00618795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		BC2531564039BDC10246032245FC1E0C /* Build configuration list for PBXNativeTarget "FBSDKCoreKit" */ = {
 			isa = XCConfigurationList;
