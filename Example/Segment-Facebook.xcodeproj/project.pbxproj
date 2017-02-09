@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Prateek Srivastava";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
